@@ -17,7 +17,7 @@
       return new_date;
     };
     function countdown() {
-      var target_date = new Date("Jan 22, 2023 23:59:59"),
+      var target_date = new Date("Jan 31, 2023 23:59:59"),
         current_date = currentDate();
       var difference = target_date - current_date;
       if (difference < 0) {
